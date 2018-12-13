@@ -1,5 +1,5 @@
 void setup() {
-  size(500,500);
+  size(1000,1000);
   background(255,255,255);
   //anything run once
 
@@ -36,8 +36,12 @@ void draw() {
      stroke(#8C1693);
      
    }
- 
-   //strokesize
+ //brown
+ if (key == 'b') {
+     stroke(#4D191A);
+   
+   
+   }
    if (key == '1') {
      strokeWeight(1);
    }
