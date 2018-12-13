@@ -27,7 +27,7 @@ void draw() {
       
    }
    //blue
-   if (key == 'b') {
+   if (key == 'i') {
      stroke(#24B8FF);
      
    }
